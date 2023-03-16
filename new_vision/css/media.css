@@ -1,0 +1,191 @@
+
+@media only screen and (max-width: 1350px) {
+
+
+  .address-map-social {
+    width: 50%;
+  }
+
+  .container {
+    max-width: 80%;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* gap: 1rem; */
+  }
+
+
+  ul {
+    display: none;
+  }
+
+
+  .hero-heading-button div {
+    margin-top: 3rem;
+  }
+
+  .bars {
+    display: block;
+    color: #fff;
+    font-size: 2rem;
+    z-index: 1;
+  }
+  .hero-heading-button {
+    position: relative;
+  }
+  
+  .hero-heading-button h1 {
+    font-size: 3rem;
+    margin-top: 2rem;
+    width: 70%;
+  }
+  
+  .start-now{
+    margin: 2rem 0 0 0; 
+  }
+
+  .services {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .service {
+    width: 30%;
+
+}
+
+
+  
+  .blog img {
+    width: 100%;
+  }
+  .blog {
+    width: 40%;
+  }
+
+
+  .people .person:nth-child(3), .people .person:nth-child(1){
+   display: none;
+  }
+
+  .people {
+    justify-content: center;
+  }
+
+  .people .person:nth-child(2){
+    width: 40%;
+   }
+
+   .lpm {
+    gap: 2rem !important;
+   }
+}
+
+
+
+
+@media only screen and (max-width: 1150px) {
+
+  .service {
+    width: 40%;
+  }
+
+  .hero-heading-button div {
+    margin-top: 0;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 880px) {
+
+
+  .form-map {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .address-map-social {
+    width: 100%;
+  }
+
+
+  .about-us {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-us div {
+    width: 100%;
+  }
+
+
+  .service {
+    width: 45%;
+  }
+
+  .people .person:nth-child(2){
+    width: 45%;
+   }
+
+    
+   .hero-heading-button div {
+    align-self: start;
+    justify-self: center;
+  }
+
+ }
+
+
+@media only screen and (max-width: 800px) {
+
+  .people .person:nth-child(2){
+    width: 70%;
+   }
+
+}
+
+
+@media only screen and (max-width: 700px) {
+ .blogs {
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+ }
+ 
+ .services {
+    justify-content: center;
+ }
+
+ .service {
+  width: 60%;
+ }
+
+ .blog {
+  width: 100%;
+ }
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+  .hero-heading-button h1 { 
+    font-size: 2.5rem;
+  }
+
+  .qoute {
+    display: none;
+  }
+
+  .people .person:nth-child(2){
+    width: 90%;
+   }
+
+  .service {
+    width: 90%;
+   }
+}
